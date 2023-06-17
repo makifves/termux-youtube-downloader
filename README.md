@@ -1,12 +1,8 @@
 ## Installation:
   1. Install termux from github https://github.com/termux/termux-app/releases
      (arm64 recommended ,use arm only for device lower than android 7)
-  2. Type the commands or just copy and paste in termux:
-        1) **`pkg up -y -y -y -y`**
-        2) **`pkg install git -y`**
-        3) **`git clone https://github.com/makifves/termux-youtube-downloader.git`**
-        4) **`cd termux-youtube-downloader`**
-        5) **`sh install.sh`**
+  2. Just copy and paste this code in termux:
+        1) **`pkg up -y -y -y -y && pkg install git -y && git clone https://github.com/makifves/termux-youtube-downloader.git && cd termux-youtube-downloader && sh install.sh`**
   3. Press ALLOW to give storage permission
   4. (Important) For Android 10 or above users: Go to app settings -> Termux app settings -> Give ALLOW to "Display over other apps" permission for working of this script 
 
